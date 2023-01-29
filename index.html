@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="main.js"></script> 
+</head>
+<body>
+<div class="main">
+    <div class="calculadora">
+        <center><p style=" opacity: 20%;">Calculadora</p></center>
+        <p class="tela"><!--Tela aqui --></p>
+        <table>
+            <tr>
+                <td><button class="btn" onclick="limpar()">C</button></td>
+                <td><button class="btn" onclick="voltar()"><</button></td>
+                <td><button class="btn" onclick="digitar('/')">/</button></td>
+                <td><button class="btn" onclick="digitar('*')">x</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="digitar('7')">7</button></td>
+                <td><button class="btn" onclick="digitar('8')">8</button></td>
+                <td><button class="btn" onclick="digitar('9')">9</button></td>
+                <td><button class="btn" onclick="digitar('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="digitar('4')">4</button></td>
+                <td><button class="btn" onclick="digitar('5')">5</button></td>
+                <td><button class="btn" onclick="digitar('6')">6</button></td>
+                <td><button class="btn" onclick="digitar('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="digitar('1')">1</button></td>
+                <td><button class="btn" onclick="digitar('2')">2</button></td>
+                <td><button class="btn" onclick="digitar('3')">3</button></td>
+                <td rowspan="2"><button onclick="resolver()" class="btn" style="height: 106px;">=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="digitar('0')" class="btn" style="width: 106px;">0</button></td>
+                <td><button class="btn" onclick="digitar('.')">.</button></td>
+            </tr>
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
