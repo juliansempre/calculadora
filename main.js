@@ -1,3 +1,4 @@
+
 function digitar(x){
     var outro = document.querySelector('.tela').innerHTML;
     document.querySelector('.tela').innerHTML = outro + x;
@@ -24,4 +25,4 @@ function resolver(){
     }
 }
 
-//ju
+window.onload = function(){ limpar(); }
